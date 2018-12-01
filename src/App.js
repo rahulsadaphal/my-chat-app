@@ -28,6 +28,10 @@ class App extends Component {
      
     }).catch(error => {
       console.log("error")
+      this.setState({
+        currentUsername: 'rahul',
+        currentScreen: 'ChatScreen'
+      })
     })
   }
 
